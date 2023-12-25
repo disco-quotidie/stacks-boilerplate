@@ -7,6 +7,8 @@
 ;;
 
 ;; data maps and vars
+(define-data-var total-sups uint u0)
+(define-map messages principal (string-utf8 500))
 ;;
 
 ;; private functions
